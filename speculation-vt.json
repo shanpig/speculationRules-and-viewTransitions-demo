@@ -1,0 +1,14 @@
+  {
+    "prerender": [
+      {
+        "where": {
+          "and": [
+            {
+              "href_matches": "/examples/view-transitions-2/*"
+            }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }

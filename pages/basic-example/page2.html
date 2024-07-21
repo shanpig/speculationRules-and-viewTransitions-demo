@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>basic example</title>
+  </head>
+  <body>
+    <h1>This is page 2</h1>
+    <div class="links">
+      <a href="/examples/basic-example/1">back to page 1</a>
+      <a href="/">back to home page</a>
+    </div>
+
+    <div id="message"></div>
+
+    <script type="speculationrules">
+      {
+        "prerender": [
+          {
+            "urls": ["/examples/basic-example/1"]
+          }
+        ]
+      }
+    </script>
+    <script src="/js/basic-example.js"></script>
+  </body>
+</html>

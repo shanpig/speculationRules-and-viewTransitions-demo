@@ -1,0 +1,14 @@
+  {
+    "prerender": [
+      {
+        "where": {
+          "and": [
+            {
+              "href_matches": "/examples/hold-back-animation/*"
+            }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }
